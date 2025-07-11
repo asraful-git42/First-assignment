@@ -87,3 +87,33 @@ header p {
 .action-right img {
   border-radius: 35px;
 }
+
+/* productive_user */
+.productive {
+  max-width: 1140px;
+  margin: 116px 150px;
+  padding: 50px 145px;
+  background-color: #e9eafe;
+  font-family: Arial, sans-serif;
+  border-radius: 12px;
+}
+.productive h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.productive-user {
+  display: flex;
+  justify-content: space-between;
+}
+.product h3 {
+  font-size: 75px;
+  color: #4a48f8;
+}
+
+.product p {
+  font-size: 18px;
+  color: #666;
+  margin-left: 10px;
+}
