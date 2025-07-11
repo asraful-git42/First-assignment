@@ -33,6 +33,12 @@ nav {
   background: #4e47ff;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.nav-btn:hover {
+  color: #4e47ff;
+  background-color: #e9eafe;
 }
 
 /* Hero Section */
@@ -55,6 +61,13 @@ header p {
   background: #4e47ff;
   border-radius: 8px;
   border: none;
+  box-shadow: 1px 2px 10px 7px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.hero-btn:hover {
+  color: #4e47ff;
+  background-color: #e9eafe;
 }
 
 /* Action Section */
@@ -87,6 +100,13 @@ header p {
   background: #4e47ff;
   border-radius: 8px;
   border: none;
+  box-shadow: 1px 2px 10px 7px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.action-btn:hover {
+  color: #4e47ff;
+  background-color: #e9eafe;
 }
 .action-right img {
   width: 100%;
@@ -205,6 +225,13 @@ header p {
   border-radius: 8px;
   border: none;
   margin-bottom: 20px;
+  box-shadow: 1px 2px 10px 7px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.template-btn:hover {
+  color: #4e47ff;
+  background-color: #e9eafe;
 }
 
 /* newsletter section */
@@ -250,6 +277,12 @@ textarea {
   background: #4e47ff;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form-btn:hover {
+  color: #4e47ff;
+  background-color: #e9eafe;
 }
 
 /* Footer Section */
