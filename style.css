@@ -155,9 +155,15 @@ header p {
 }
 .user {
   display: flex;
+  align-items: center;
   gap: 12px;
 }
-.user img {
+.user-image {
+  width: 40px;
+  height: 40px;
+}
+.user-image img {
+  width: 100%;
   border-radius: 50%;
 }
 .user-review h5 {
@@ -220,7 +226,7 @@ form {
   display: flex;
   flex-direction: column;
 }
-form p {
+label {
   margin-bottom: 5px;
 }
 input {
