@@ -167,3 +167,36 @@ header p {
   color: #b3b3b3;
   margin-top: 5px;
 }
+
+/* template section */
+
+.template {
+  max-width: 1140px;
+  margin: 116px 150px;
+  background-color: #ffffff;
+  padding: 71px 150px;
+  text-align: center;
+}
+.template h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.template p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.template-img {
+  max-width: 650px;
+  border-radius: 30px;
+}
+.template-btn {
+  width: 195px;
+  height: 48px;
+  color: #ffffff;
+  background: #4e47ff;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+}
