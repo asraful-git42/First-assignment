@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Banner section */
 nav {
   width: 100%;
@@ -24,10 +29,11 @@ nav {
   border-radius: 8px;
   border: none;
 }
+
 /* Hero Section */
+
 header {
   max-width: 905px;
-  height: 237px;
   margin: 0px 261px;
   text-align: center;
   margin-top: 152px;
@@ -39,8 +45,45 @@ header p {
 .hero-btn {
   width: 174px;
   height: 48px;
+  margin-top: 37px;
   color: #ffffff;
   background: #4e47ff;
   border-radius: 8px;
   border: none;
+}
+
+/* Action Section */
+
+.action {
+  max-width: 1140px;
+  height: 328px;
+  margin: 116px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.action-left {
+  width: 517px;
+}
+.action-left h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+.action-left p {
+  font-size: 24px;
+  color: #252432;
+  margin-bottom: 23px;
+}
+.action-btn {
+  width: 229px;
+  height: 48px;
+  color: #ffffff;
+  background: #4e47ff;
+  border-radius: 8px;
+  border: none;
+}
+.action-right img {
+  border-radius: 35px;
 }
