@@ -200,3 +200,48 @@ header p {
   border: none;
   margin-bottom: 20px;
 }
+
+/* newsletter section */
+
+.newsletter {
+  max-width: 1140px;
+  margin: 116px 150px;
+  padding: 71px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 115px;
+}
+.newsletter h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form p {
+  margin-bottom: 5px;
+}
+input {
+  padding: 20px 32px;
+  margin-bottom: 19px;
+  border-radius: 7px;
+  border: none;
+}
+textarea {
+  width: 400px;
+  height: 135px;
+  padding: 20px 32px;
+  margin-bottom: 19px;
+  border-radius: 7px;
+  border: none;
+}
+.form-btn {
+  width: 400px;
+  height: 48px;
+  color: #ffffff;
+  background: #4e47ff;
+  border-radius: 8px;
+  border: none;
+}
